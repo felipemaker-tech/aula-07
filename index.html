@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Estilização - menus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+</head>
+<body>
+    <header class="topo" id="inicio">
+        <h1>Portal de Tecnologia</h1>
+        <p>Exemplo de HTML + CSS</p>
+
+        <nav class="menu-horizontal">
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Imagem</a></li>
+                <li><a href="">Listas</a></li>
+                <li><a href="">tabelas</a></li>
+                <li><a href="">links</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <div class="pagina">
+        <aside class="menu-lateral">
+            <h2>conteúdos</h2>
+            <nav>
+                <ul>
+                    <li><a href="#imagens"><i class="fa-duotone fa-thin fa-image"></i> 1.imagem</a></li>
+                    <li><a href="#listas">2.lista</a></li>
+                    <li><a href="#tabela">3.tabela</a></li>
+                    <li><a href="#links">4.links</a></li>
+                    
+                </ul>
+            </nav>
+        </aside>
+        <main class="conteudo">
+            <section id="imagens" class="section">
+                <h2>1. imagens</h2>
+                <p>tag imagem</p>
+                <img class="imagem"
+                src="https://s2-oglobo.glbimg.com/CvRnMai0Um4synVbwseVuxGgoxg=/0x0:1024x1024/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2022/B/c/E2AX3uSWyBqSzncbwx5A/3.glbimg.com-v1-auth-0ae9f161c1ff459593599b7ffa1a1292-images-escenic-2022-4-13-19-1649888639951.jpg"
+                alt="imagem"
+                >
+
+            </section>
+            <section id="listas" class="section">
+            <h2>2.listas</h2>
+            <p>uma lista não ordenada</p>
+            <ul clas="lista-conteudo">
+                <li>html</li>
+                <li>css</li>
+                <li>javaScript</li>
+            </ul>
+        </section>
+
+            <section id="tabela" class="section">
+                <h2>3. Tabelas</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tecnologia</th>
+                            <th>Finalidade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Estrutura da página</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="section" id="links">
+                <h2> 4. links </h2>
+                <p>um link para o mio time do Brasil</p>
+                <a herf="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgLaWdQqWoaFHLVjph0MyPiVTulXtUm-hZsfxGqI3qGQ&s"
+                
+                >
+            </section>
+        </main>
+
+    </div>
+
+
+    
+</body>
+</html>
